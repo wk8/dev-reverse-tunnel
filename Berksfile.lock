@@ -1,0 +1,11 @@
+DEPENDENCIES
+  dev-reverse-tunnel
+    path: .
+    metadata: true
+
+GRAPH
+  dev-reverse-tunnel (0.0.1)
+    runit (>= 0.0.0)
+  packagecloud (0.0.18)
+  runit (1.6.0)
+    packagecloud (>= 0.0.0)

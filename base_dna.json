@@ -1,0 +1,9 @@
+{
+  "dev-reverse-tunnel": {
+    "user": null,
+    "identity-file": null,
+    "port": 22,
+    "remote-port": 30000,
+    "local-port": 80
+  }
+}

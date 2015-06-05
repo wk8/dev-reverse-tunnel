@@ -1,0 +1,3 @@
+#!/bin/sh
+
+autossh -fN <%= @ssh_connection_string %> -R <%= node['dev-reverse-tunnel']['remote-port'] %>:localhost:<%= node['dev-reverse-tunnel']['local-port'] %>
